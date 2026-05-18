@@ -6,6 +6,10 @@ CareerPath is a web application designed to help students explore career options
 
 The objective of this project is to ensure that students feel confident in their decisions post-graduation; whether they pursue higher education or careers that align with their experience, each student should have the ability to access proper guidance for their career. This application is built as a final project for INST 377 at the University of Maryland.
 
+## Live Demo
+
+CareerPath on Vercel: (https://inst-377-final-project-spring-2026-j6gc3giu6-mehrene-s-projects.vercel.app)
+
 ## Target Browsers
 
 CareerPath is designed primarily for **desktop browsers** but is accessible on mobile devices as well.
@@ -168,11 +172,13 @@ Saves a new career to the Supabase database.
 ---
 
 ### `DELETE /api/careers/:id`
+
 Deletes a saved career by ID.
 
 **Example:** `DELETE /api/careers/3`
 
 **Response:**
+
 ```json
 { "message": "Career deleted" }
 ```
@@ -236,5 +242,3 @@ Returns a curated list of top universities for a given major.
 - **Expanded university data:** Add more majors and pull university data from a live external API rather than a hardcoded list
 - **Job filtering:** Allow users to filter job listings by salary range, location, or agency
 - **Mobile responsiveness:** Further improve the layout and usability on smaller screen sizes
-
-
