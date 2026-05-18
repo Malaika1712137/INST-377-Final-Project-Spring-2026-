@@ -8,7 +8,7 @@ The objective of this project is to ensure that students feel confident in their
 
 ## Live Demo
 
-CareerPath on Vercel: (https://inst-377-final-project-spring-2026-j6gc3giu6-mehrene-s-projects.vercel.app)
+CareerPath on Vercel: https://inst-377-final-project-spring-2026.vercel.app/
 
 ## Target Browsers
 
